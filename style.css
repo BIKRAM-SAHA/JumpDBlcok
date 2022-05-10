@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  background-color: black;
+  margin: 30px;
+}
+.title {
+  z-index: 5;
+  color: aliceblue;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+}
+.hide {
+  display: none;
+}
+.player {
+  position: absolute;
+  background-color: red;
+}
